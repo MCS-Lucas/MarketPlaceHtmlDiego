@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #dbdfd9;
+}
+
+.temp{
+    border-radius: 10%;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.temp h1{
+
+    text-align: center;
+    color: #66e014;
+}
+
+.temp h3{
+
+    font-size: 20px;
+    color: black;
+
+}
+
+.links{
+    overflow: hidden;
+    background-color: #dbdfd9;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    float: left;
+}
+  
+li a{
+    float: left;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    background-color: #66e014;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+li a:hover{
+    background-color: #f09a19;
+    color: #000000;
+}
+
+.cha{
+    padding: 20px 10px;
+      color: #000000;
+      float: left;
+      font-size: 25px;
+}
+
+.colunaes{
+    float: left;
+    width: 30%;
+}
+
+form{
+    height: 90%;
+    width: 65%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+ 
+#esq-senh{
+   
+color: black;
+font-size: 20px;
+font-weight: 500;
+}
+
+form h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+
+    position: relative;
+
+    left: 60%;
+    bottom: 120%;
+    margin-top: 1%;
+    width: 35%;
+    background-color: #F3AA3C;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+input{
+    display: block;
+    height: 1%;
+    background-color: #D9D9D9;
+    border-radius: 17px;
+    padding: 2%;
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#btprod{
+
+    left: 40%;
+    bottom: 115%;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+#vendedor{
+
+    display: block;
+    
+    width: 30%;
+
+}
+
+#filial{
+
+    display: block;
+    
+    width: 20%;
+
+}
+
+#apelido{
+    display: block;
+
+    width: 20%;
+
+}
+
+#endereco{
+    display: block;
+
+    width: 60%;
+
+}
+
+#cidade{
+    display: block;
+
+    width: 20%;
+
+}
+
+#telefone{
+
+    display: block;
+    width: 25%;
+
+}
+
+#actv{
+
+    display: block;
+
+    width: 20%;
+
+}
+
+#desct{
+
+    display: block;
+    width: 20%;
+    position: relative;
+    bottom: 12%;
+    left: 31%; 
+    width: 20%;
+
+}
+
+#comissao{
+
+    display: block;
+    width: 20%;
+    position: relative;
+    bottom: 38%;
+    left: 35%; 
+    width: 16%;
+}
+
+#Uf{
+
+    display: block;
+    width: 20%;
+    position: relative;
+    bottom: 62%;
+    left: 35%; 
+    width: 16%;
+
+}
+
+#RGIE{
+
+    display: block;
+    position: relative;
+    bottom: 99%;
+    left: 75%; 
+    width: 20%;
+
+
+}
+
+#CPF{
+
+    display: block;
+    position: relative;
+    bottom: 111%;
+    left: 40%; 
+    width: 20%;
+
+}
+
+#CNPJ{
+
+    display: block;
+    position: relative;
+    bottom: 111%;
+    left: 75%; 
+    width: 20%;
+}
+
+#Cargo{
+
+    display: block;
+    position: relative;
+    bottom: 112%;
+    left: 70%; 
+    width: 25%;
+}
+
+#codigo{
+
+    display: block;
+    position: relative;
+    bottom: 173%;
+    left: 80%; 
+    width: 15%;
+
+}
+
+#Vend_Fra{
+
+    display: block;
+    position: relative;
+    bottom: 173%;
+    left: 65%; 
+    width: 30%;
+}
+
+.colunacentro{
+    float: left;
+    width: 40%;
+    background-color:transparent;
+    border-radius: 15%;
+}
+
+.colunadi{
+    float: left;
+    width: 30%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.corpo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.font{
+    float: right;
+    font-size: 25px;
+    padding: 30px;
+}
+
+
+.rodape {
+    height: 140px;
+    border: 15px solid transparent;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .colunaes, .colunadi {   
+      width: 100%;
+      padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links a {
+      width: 100%;
+    }
+}

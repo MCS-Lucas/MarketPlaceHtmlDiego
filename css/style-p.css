@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #dbdfd9;
+}
+
+.temp{
+    border-radius: 10%;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.links{
+    overflow: hidden;
+    background-color: #dbdfd9;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    float: left;
+}
+  
+li a{
+    float: left;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    background-color: #66e014;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+li a:hover{
+    background-color: #f09a19;
+    color: #000000;
+}
+
+.cha{
+    padding: 20px 10px;
+      color: #000000;
+      float: left;
+      font-size: 25px;
+}
+
+.colunaes{
+    float: left;
+    width: 50%;
+}
+
+
+.colunadi{
+    float: left;
+    width: 50%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.imgcaixa{
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    margin-left: 150px;
+}
+
+.CháLeão{
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    margin-left: 150px;
+}
+
+.corpo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.font{
+    float: right;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.font1{
+    float: right;
+    font-size: 21px;
+    padding: 20px;
+}
+
+
+.rodape {
+    height: 140px;
+    border: 15px solid transparent;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .colunaes, .colunadi {   
+      width: 100%;
+      padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links a {
+      width: 100%;
+    }
+}

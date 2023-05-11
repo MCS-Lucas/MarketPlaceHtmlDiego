@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #dbdfd9;
+}
+
+.temp{
+    border-radius: 10%;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.temp h1{
+
+    text-align: center;
+    color: #66e014;
+}
+
+.temp h3{
+
+    font-size: 20px;
+    color: black;
+
+}
+
+.links{
+    overflow: hidden;
+    background-color: #dbdfd9;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    float: left;
+}
+  
+li a{
+    float: left;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    background-color: #66e014;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+li a:hover{
+    background-color: #f09a19;
+    color: #000000;
+}
+
+.cha{
+    padding: 20px 10px;
+      color: #000000;
+      float: left;
+      font-size: 25px;
+}
+
+.colunaes{
+    float: left;
+    width: 30%;
+}
+
+form{
+    height: 90%;
+    width: 65%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+ 
+#esq-senh{
+   
+color: black;
+font-size: 20px;
+font-weight: 500;
+}
+
+form h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+    margin-top: 1%;
+    margin-right: 6%;
+    width: 18%;
+    background-color: #F3AA3C;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#deletar{
+
+background-color: red;
+
+}
+
+#label_Desc{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 5%;
+
+}
+
+#label_Quan{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top:20%
+
+}
+
+#label_precU{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left:25%;
+    top:7%
+
+}
+
+#label_cod{
+
+    top:6%;
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+
+
+}
+
+
+#label_precT{
+
+
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    bottom:6%;
+    left:49%;
+}
+
+
+
+input{
+    display: block;
+    height: 2%;
+    width: 20%;
+    background-color: #D9D9D9;
+    border-radius: 17px;
+    padding: 2%;
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#Codigo{
+
+    left:12%;
+    display: block;
+    width: 10%;
+    position: relative;
+
+}
+
+#Desc{
+
+    display: block;
+    width: 40%;
+    position: relative;
+    top: 6%;
+    display: block;
+}
+
+#Quant{
+
+    top: 20%;
+    display: block;
+    width: 20%;
+    position: relative;
+
+}
+
+#Preco_Un{
+
+    display: block;
+    width: 20%;
+    position: relative;
+    top:7%;
+    left:24%;
+
+}
+
+#Preco_Total{
+
+    bottom:6%;
+    left: 48%; 
+    display: block;
+    width: 20%;
+    position: relative;
+
+}
+
+
+
+
+.colunacentro{
+    float: left;
+    width: 40%;
+    background-color:transparent;
+    border-radius: 15%;
+}
+
+.colunadi{
+    float: left;
+    width: 30%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.corpo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.font{
+    float: right;
+    font-size: 25px;
+    padding: 30px;
+}
+
+
+.rodape {
+    height: 140px;
+    border: 15px solid transparent;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .colunaes, .colunadi {   
+      width: 100%;
+      padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links a {
+      width: 100%;
+    }
+}

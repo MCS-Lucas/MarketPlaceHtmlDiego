@@ -1,0 +1,23 @@
+Isadora: 
+
+-homepage
+-pagina de produtos (geral)
+-menu
+
+Lucas Carvalho:
+
+-cadastro usuario/loja
+-login
+-cadastro de produto
+
+Filype Ottoni:
+
+-FAQ
+-beneficios
+-diferencial
+
+Paulo Gustavo:
+
+-carrinho
+-pagina de produtos (individual)
+-recuperar senha
