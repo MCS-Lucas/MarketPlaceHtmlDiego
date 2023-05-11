@@ -1,6 +1,6 @@
 # MarketPlaceHtmlDiego
 
-Trabalho de construção de um BMC (incluindo protótipo) de um MarketPlace, de nome *FAZUAI*(voltado pra D.I.Y);
+Trabalho de construção de um BMC (incluindo protótipo) de um MarketPlace, de nome *chamomila*(voltado pra venda e comércio de chá);
 
 Trabalho efetuado por:
 1- Isadora Andrade
