@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #dbdfd9;
+}
+
+
+.temp{
+    border-radius: 10%;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.links{
+    overflow: hidden;
+    background-color: #dbdfd9;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    float: left;
+}
+  
+li a{
+    float: left;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    background-color: #66e014;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+li a:hover{
+    background-color: #f09a19;
+    color: #000000;
+}
+
+.rodape {
+    height: 140px;
+    border: 15px solid transparent;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .colunaes, .colunadi {   
+      width: 100%;
+      padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links a {
+      width: 100%;
+    }
+}
+.container{
+    width: 450px;
+    background-color: rgb(104, 104, 104);
+    border-radius: 70px 0 70px 0;
+    padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    transform: translateY(50%);
+    flex-direction: column;
+}
+.container h2{
+    margin: 2rem 0;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #f6f6f9;
+    border-bottom: 1px solid #f6f6f9;
+    font-size: 2rem;
+}
+.form{
+    margin-bottom: 2rem;
+}
+.form label,input{
+    display: block;
+    width: 100%;
+}
+.form label{
+    margin-bottom: 2px;
+    color: #f6f6f9;
+    font-size: 18px;
+}
+.form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.form a{
+    width: 100%;
+    background-color: #f6f6f9;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.link a{
+    color: #f6f6f9;
+    text-decoration: none;
+}
+.link a:hover{
+    text-decoration: underline;
+}
